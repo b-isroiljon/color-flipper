@@ -35,7 +35,7 @@ a:hover {
 }
 
 .nav-items {
-    background-color: beige;
+    background-color: #f1f5f8;
     position: relative;
     display: flex;
     align-items: center;
