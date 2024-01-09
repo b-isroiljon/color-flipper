@@ -22,7 +22,7 @@ Open the HTML file in your web browser. Click the button to change the backgroun
 
 ## Working Example
 
-You can check out a working example of this project ![here](https://b-isroiljon.github.io/color-flipper/).
+You can check out a working example of this project [here](https://b-isroiljon.github.io/color-flipper/).
 
 ## Future Improvements
 
