@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-
-
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +11,6 @@ body {
     line-height: 1.5;
     font-size: 0.875rem;
 }
-
 
 a {
     text-decoration: none; 
@@ -30,7 +27,7 @@ a:hover {
     letter-spacing: 4px;
 }
 
-.color {
+.color-name {
     color: #49a6e9;
 }
 
@@ -51,9 +48,30 @@ a:hover {
    letter-spacing: 4px;
 }
 
+.link {
+    background-color: #f1f5f8;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.37rem 0.7rem;
+    border-radius: 8px;
+}
+
+.link:hover {
+    background-color: #222222;
+    color: #f1f5f8;
+    transition: all 0.5s ease;
+}
+
+.active-link {
+    background-color: #49a6e9;
+}
+
+
 .main-section{
     /* width: 100%; */
-    /* background-color: #f1f5f8; */
+    background-color: #f1f5f8;
     min-height: calc(100vh - 3rem);
     display: flex;
     height: 100vh;
@@ -84,7 +102,7 @@ a:hover {
     letter-spacing: 0.25rem;
     font-weight: 700;
     font-size: 0.875rem;
-    padding: 0.375rem 0.75rem;
+    padding: 0.7rem;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     cursor: pointer;
@@ -95,8 +113,5 @@ a:hover {
     color: #f1f5f8;
     transition: all 0.5s ease;
  }
- .btn-hero {
-    font-size: 1rem;
-    padding: 0.75rem 1.25rem;
-  }
+
 
